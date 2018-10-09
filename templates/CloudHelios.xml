@@ -1,0 +1,12 @@
+<templateSet group="CloudHelios">
+  <template name="gldepcom" value="complie rootProject.ext.dependencies['']&#10;$END$" description="phoenix gradle dependencies" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="gldepimpl" value="implementation rootProject.ext.dependencies['']&#10;$END$" description="phoenix gradle dependencies" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>
